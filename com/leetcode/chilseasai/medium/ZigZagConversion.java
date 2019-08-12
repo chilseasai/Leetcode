@@ -1,4 +1,6 @@
-public class Solution {
+package com.leetcode.chilseasai.medium;
+
+public class ZigZagConversion {
     public String convert(String s, int nRows) {  
         if(s == null || s.length()==0 || nRows <=0)  
             return "";  
